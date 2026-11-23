@@ -25,7 +25,7 @@ Modern phishing campaigns frequently evade static IP/domain blacklists by deploy
             ├─► [ StandardScaler Transformer (Joblib) ]
             │         │
             │         ▼
-            ├─► [ Random Forest Champion Classifier (Joblib) ]
+            ├─► [ Random Forest  Classifier (Joblib) ]
             │         │
             │         ▼
             ├─► [ Probability Confidence & Risk Scorer (Low / Med / High) ]
@@ -76,7 +76,7 @@ The system extracts **16 numerical and structural indicators** from any input UR
 
 | Classifier Algorithm | Accuracy | Precision | Recall | F1-Score | Role |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **Random Forest Classifier** | **~96.8%** | **~97.1%** | **~96.4%** | **~96.7%** | ⭐ **Production Champion Model** |
+| **Random Forest Classifier** | **~96.8%** | **~97.1%** | **~96.4%** | **~96.7%** |
 | **Support Vector Machine (SVM)** | **~94.5%** | **~95.0%** | **~93.8%** | **~94.4%** | High-dimensional margin separator |
 | **Decision Tree Classifier** | **~92.3%** | **~91.8%** | **~93.1%** | **~92.4%** | Hierarchical rule-based baseline |
 | **Logistic Regression** | **~90.7%** | **~91.2%** | **~89.9%** | **~90.5%** | Linear probabilistic baseline |
