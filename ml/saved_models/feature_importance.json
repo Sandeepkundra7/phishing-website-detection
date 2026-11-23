@@ -1,0 +1,18 @@
+{
+  "suspicious_keywords_found": 20.45,
+  "has_suspicious_tld": 16.44,
+  "is_https": 13.32,
+  "domain_hyphens": 13.06,
+  "sub_domain_count": 11.42,
+  "num_special_chars": 8.2,
+  "prefix_suffix_hyphen": 5.19,
+  "url_length": 3.75,
+  "num_digits": 3.24,
+  "url_entropy": 3.22,
+  "having_ip_address": 1.22,
+  "shortening_service": 0.36,
+  "double_slash_redirecting": 0.11,
+  "has_port": 0.02,
+  "https_in_domain": 0.01,
+  "having_at_symbol": 0.0
+}

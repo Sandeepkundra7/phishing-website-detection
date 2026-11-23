@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Random Forest Classifier",
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1_score": 100.0,
+    "confusion_matrix": {
+      "TN": 400,
+      "FP": 0,
+      "FN": 0,
+      "TP": 400
+    },
+    "is_champion": true
+  },
+  {
+    "name": "Support Vector Machine (SVM)",
+    "accuracy": 99.75,
+    "precision": 99.5,
+    "recall": 100.0,
+    "f1_score": 99.75,
+    "confusion_matrix": {
+      "TN": 398,
+      "FP": 2,
+      "FN": 0,
+      "TP": 400
+    },
+    "is_champion": false
+  },
+  {
+    "name": "Decision Tree Classifier",
+    "accuracy": 99.75,
+    "precision": 99.5,
+    "recall": 100.0,
+    "f1_score": 99.75,
+    "confusion_matrix": {
+      "TN": 398,
+      "FP": 2,
+      "FN": 0,
+      "TP": 400
+    },
+    "is_champion": false
+  },
+  {
+    "name": "Logistic Regression",
+    "accuracy": 98.0,
+    "precision": 98.73,
+    "recall": 97.25,
+    "f1_score": 97.98,
+    "confusion_matrix": {
+      "TN": 395,
+      "FP": 5,
+      "FN": 11,
+      "TP": 389
+    },
+    "is_champion": false
+  }
+]

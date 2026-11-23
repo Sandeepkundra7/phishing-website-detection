@@ -1,0 +1,127 @@
+{
+  "dataset_name": "PhishShield URL Feature Matrix",
+  "total_samples": 4000,
+  "feature_count": 16,
+  "class_distribution": {
+    "legitimate_count": 2000,
+    "legitimate_percentage": 50.0,
+    "phishing_count": 2000,
+    "phishing_percentage": 50.0
+  },
+  "top_predictive_features": {
+    "suspicious_keywords_found": 0.827,
+    "is_https": -0.7467,
+    "prefix_suffix_hyphen": 0.7423,
+    "has_suspicious_tld": 0.7114,
+    "domain_hyphens": 0.6972,
+    "url_length": 0.6201,
+    "url_entropy": 0.5928,
+    "num_special_chars": 0.5195,
+    "num_digits": 0.4305,
+    "having_ip_address": 0.2811,
+    "having_at_symbol": 0.2441,
+    "double_slash_redirecting": 0.2401,
+    "https_in_domain": 0.21,
+    "shortening_service": 0.167,
+    "has_port": 0.1534,
+    "sub_domain_count": -0.0024
+  },
+  "feature_statistics": {
+    "url_length": {
+      "overall_mean": 54.166,
+      "legitimate_mean": 44.645,
+      "phishing_mean": 63.687,
+      "correlation_with_phishing": 0.6201
+    },
+    "having_ip_address": {
+      "overall_mean": 0.0732,
+      "legitimate_mean": 0.0,
+      "phishing_mean": 0.1465,
+      "correlation_with_phishing": 0.2811
+    },
+    "shortening_service": {
+      "overall_mean": 0.0995,
+      "legitimate_mean": 0.0495,
+      "phishing_mean": 0.1495,
+      "correlation_with_phishing": 0.167
+    },
+    "having_at_symbol": {
+      "overall_mean": 0.0563,
+      "legitimate_mean": 0.0,
+      "phishing_mean": 0.1125,
+      "correlation_with_phishing": 0.2441
+    },
+    "double_slash_redirecting": {
+      "overall_mean": 0.0545,
+      "legitimate_mean": 0.0,
+      "phishing_mean": 0.109,
+      "correlation_with_phishing": 0.2401
+    },
+    "prefix_suffix_hyphen": {
+      "overall_mean": 0.3553,
+      "legitimate_mean": 0.0,
+      "phishing_mean": 0.7105,
+      "correlation_with_phishing": 0.7423
+    },
+    "sub_domain_count": {
+      "overall_mean": 0.5285,
+      "legitimate_mean": 0.531,
+      "phishing_mean": 0.526,
+      "correlation_with_phishing": -0.0024
+    },
+    "is_https": {
+      "overall_mean": 0.576,
+      "legitimate_mean": 0.945,
+      "phishing_mean": 0.207,
+      "correlation_with_phishing": -0.7467
+    },
+    "https_in_domain": {
+      "overall_mean": 0.0423,
+      "legitimate_mean": 0.0,
+      "phishing_mean": 0.0845,
+      "correlation_with_phishing": 0.21
+    },
+    "has_port": {
+      "overall_mean": 0.023,
+      "legitimate_mean": 0.0,
+      "phishing_mean": 0.046,
+      "correlation_with_phishing": 0.1534
+    },
+    "has_suspicious_tld": {
+      "overall_mean": 0.336,
+      "legitimate_mean": 0.0,
+      "phishing_mean": 0.672,
+      "correlation_with_phishing": 0.7114
+    },
+    "url_entropy": {
+      "overall_mean": 4.2933,
+      "legitimate_mean": 4.1371,
+      "phishing_mean": 4.4495,
+      "correlation_with_phishing": 0.5928
+    },
+    "num_digits": {
+      "overall_mean": 3.1615,
+      "legitimate_mean": 0.6215,
+      "phishing_mean": 5.7015,
+      "correlation_with_phishing": 0.4305
+    },
+    "num_special_chars": {
+      "overall_mean": 2.2945,
+      "legitimate_mean": 1.52,
+      "phishing_mean": 3.069,
+      "correlation_with_phishing": 0.5195
+    },
+    "suspicious_keywords_found": {
+      "overall_mean": 1.2842,
+      "legitimate_mean": 0.267,
+      "phishing_mean": 2.3015,
+      "correlation_with_phishing": 0.827
+    },
+    "domain_hyphens": {
+      "overall_mean": 0.7027,
+      "legitimate_mean": 0.0,
+      "phishing_mean": 1.4055,
+      "correlation_with_phishing": 0.6972
+    }
+  }
+}
